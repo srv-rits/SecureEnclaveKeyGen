@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CCAC0F12B8CBCA70007B75E /* SecureEnclaveKeyGenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCAC0F02B8CBCA70007B75E /* SecureEnclaveKeyGenApp.swift */; };
+		4CCAC0F32B8CBCA70007B75E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCAC0F22B8CBCA70007B75E /* ContentView.swift */; };
+		4CCAC0F52B8CBCA80007B75E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCAC0F42B8CBCA80007B75E /* Assets.xcassets */; };
+		4CCAC0F82B8CBCA80007B75E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCAC0F72B8CBCA80007B75E /* Preview Assets.xcassets */; };
+		4CCAC1022B8CBCA80007B75E /* SecureEnclaveKeyGenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCAC1012B8CBCA80007B75E /* SecureEnclaveKeyGenTests.swift */; };
+		4CCAC10C2B8CBCA80007B75E /* SecureEnclaveKeyGenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCAC10B2B8CBCA80007B75E /* SecureEnclaveKeyGenUITests.swift */; };
+		4CCAC10E2B8CBCA80007B75E /* SecureEnclaveKeyGenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCAC10D2B8CBCA80007B75E /* SecureEnclaveKeyGenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CCAC0FE2B8CBCA80007B75E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCAC0E52B8CBCA60007B75E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCAC0EC2B8CBCA70007B75E;
+			remoteInfo = SecureEnclaveKeyGen;
+		};
+		4CCAC1082B8CBCA80007B75E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCAC0E52B8CBCA60007B75E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCAC0EC2B8CBCA70007B75E;
+			remoteInfo = SecureEnclaveKeyGen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CCAC0ED2B8CBCA70007B75E /* SecureEnclaveKeyGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureEnclaveKeyGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCAC0F02B8CBCA70007B75E /* SecureEnclaveKeyGenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEnclaveKeyGenApp.swift; sourceTree = "<group>"; };
+		4CCAC0F22B8CBCA70007B75E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4CCAC0F42B8CBCA80007B75E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CCAC0F72B8CBCA80007B75E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CCAC0FD2B8CBCA80007B75E /* SecureEnclaveKeyGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureEnclaveKeyGenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCAC1012B8CBCA80007B75E /* SecureEnclaveKeyGenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEnclaveKeyGenTests.swift; sourceTree = "<group>"; };
+		4CCAC1072B8CBCA80007B75E /* SecureEnclaveKeyGenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureEnclaveKeyGenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCAC10B2B8CBCA80007B75E /* SecureEnclaveKeyGenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEnclaveKeyGenUITests.swift; sourceTree = "<group>"; };
+		4CCAC10D2B8CBCA80007B75E /* SecureEnclaveKeyGenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureEnclaveKeyGenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCAC0EA2B8CBCA70007B75E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCAC0FA2B8CBCA80007B75E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCAC1042B8CBCA80007B75E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CCAC0E42B8CBCA60007B75E = {
+			isa = PBXGroup;
+			children = (
+				4CCAC0EF2B8CBCA70007B75E /* SecureEnclaveKeyGen */,
+				4CCAC1002B8CBCA80007B75E /* SecureEnclaveKeyGenTests */,
+				4CCAC10A2B8CBCA80007B75E /* SecureEnclaveKeyGenUITests */,
+				4CCAC0EE2B8CBCA70007B75E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CCAC0EE2B8CBCA70007B75E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CCAC0ED2B8CBCA70007B75E /* SecureEnclaveKeyGen.app */,
+				4CCAC0FD2B8CBCA80007B75E /* SecureEnclaveKeyGenTests.xctest */,
+				4CCAC1072B8CBCA80007B75E /* SecureEnclaveKeyGenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CCAC0EF2B8CBCA70007B75E /* SecureEnclaveKeyGen */ = {
+			isa = PBXGroup;
+			children = (
+				4CCAC0F02B8CBCA70007B75E /* SecureEnclaveKeyGenApp.swift */,
+				4CCAC0F22B8CBCA70007B75E /* ContentView.swift */,
+				4CCAC0F42B8CBCA80007B75E /* Assets.xcassets */,
+				4CCAC0F62B8CBCA80007B75E /* Preview Content */,
+			);
+			path = SecureEnclaveKeyGen;
+			sourceTree = "<group>";
+		};
+		4CCAC0F62B8CBCA80007B75E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4CCAC0F72B8CBCA80007B75E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4CCAC1002B8CBCA80007B75E /* SecureEnclaveKeyGenTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CCAC1012B8CBCA80007B75E /* SecureEnclaveKeyGenTests.swift */,
+			);
+			path = SecureEnclaveKeyGenTests;
+			sourceTree = "<group>";
+		};
+		4CCAC10A2B8CBCA80007B75E /* SecureEnclaveKeyGenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CCAC10B2B8CBCA80007B75E /* SecureEnclaveKeyGenUITests.swift */,
+				4CCAC10D2B8CBCA80007B75E /* SecureEnclaveKeyGenUITestsLaunchTests.swift */,
+			);
+			path = SecureEnclaveKeyGenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CCAC0EC2B8CBCA70007B75E /* SecureEnclaveKeyGen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCAC1112B8CBCA80007B75E /* Build configuration list for PBXNativeTarget "SecureEnclaveKeyGen" */;
+			buildPhases = (
+				4CCAC0E92B8CBCA70007B75E /* Sources */,
+				4CCAC0EA2B8CBCA70007B75E /* Frameworks */,
+				4CCAC0EB2B8CBCA70007B75E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecureEnclaveKeyGen;
+			productName = SecureEnclaveKeyGen;
+			productReference = 4CCAC0ED2B8CBCA70007B75E /* SecureEnclaveKeyGen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CCAC0FC2B8CBCA80007B75E /* SecureEnclaveKeyGenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCAC1142B8CBCA80007B75E /* Build configuration list for PBXNativeTarget "SecureEnclaveKeyGenTests" */;
+			buildPhases = (
+				4CCAC0F92B8CBCA80007B75E /* Sources */,
+				4CCAC0FA2B8CBCA80007B75E /* Frameworks */,
+				4CCAC0FB2B8CBCA80007B75E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCAC0FF2B8CBCA80007B75E /* PBXTargetDependency */,
+			);
+			name = SecureEnclaveKeyGenTests;
+			productName = SecureEnclaveKeyGenTests;
+			productReference = 4CCAC0FD2B8CBCA80007B75E /* SecureEnclaveKeyGenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CCAC1062B8CBCA80007B75E /* SecureEnclaveKeyGenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCAC1172B8CBCA80007B75E /* Build configuration list for PBXNativeTarget "SecureEnclaveKeyGenUITests" */;
+			buildPhases = (
+				4CCAC1032B8CBCA80007B75E /* Sources */,
+				4CCAC1042B8CBCA80007B75E /* Frameworks */,
+				4CCAC1052B8CBCA80007B75E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCAC1092B8CBCA80007B75E /* PBXTargetDependency */,
+			);
+			name = SecureEnclaveKeyGenUITests;
+			productName = SecureEnclaveKeyGenUITests;
+			productReference = 4CCAC1072B8CBCA80007B75E /* SecureEnclaveKeyGenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CCAC0E52B8CBCA60007B75E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					4CCAC0EC2B8CBCA70007B75E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					4CCAC0FC2B8CBCA80007B75E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4CCAC0EC2B8CBCA70007B75E;
+					};
+					4CCAC1062B8CBCA80007B75E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4CCAC0EC2B8CBCA70007B75E;
+					};
+				};
+			};
+			buildConfigurationList = 4CCAC0E82B8CBCA60007B75E /* Build configuration list for PBXProject "SecureEnclaveKeyGen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CCAC0E42B8CBCA60007B75E;
+			productRefGroup = 4CCAC0EE2B8CBCA70007B75E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CCAC0EC2B8CBCA70007B75E /* SecureEnclaveKeyGen */,
+				4CCAC0FC2B8CBCA80007B75E /* SecureEnclaveKeyGenTests */,
+				4CCAC1062B8CBCA80007B75E /* SecureEnclaveKeyGenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CCAC0EB2B8CBCA70007B75E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCAC0F82B8CBCA80007B75E /* Preview Assets.xcassets in Resources */,
+				4CCAC0F52B8CBCA80007B75E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCAC0FB2B8CBCA80007B75E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCAC1052B8CBCA80007B75E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CCAC0E92B8CBCA70007B75E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCAC0F32B8CBCA70007B75E /* ContentView.swift in Sources */,
+				4CCAC0F12B8CBCA70007B75E /* SecureEnclaveKeyGenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCAC0F92B8CBCA80007B75E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCAC1022B8CBCA80007B75E /* SecureEnclaveKeyGenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCAC1032B8CBCA80007B75E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCAC10C2B8CBCA80007B75E /* SecureEnclaveKeyGenUITests.swift in Sources */,
+				4CCAC10E2B8CBCA80007B75E /* SecureEnclaveKeyGenUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CCAC0FF2B8CBCA80007B75E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCAC0EC2B8CBCA70007B75E /* SecureEnclaveKeyGen */;
+			targetProxy = 4CCAC0FE2B8CBCA80007B75E /* PBXContainerItemProxy */;
+		};
+		4CCAC1092B8CBCA80007B75E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCAC0EC2B8CBCA70007B75E /* SecureEnclaveKeyGen */;
+			targetProxy = 4CCAC1082B8CBCA80007B75E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CCAC10F2B8CBCA80007B75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CCAC1102B8CBCA80007B75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CCAC1122B8CBCA80007B75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SecureEnclaveKeyGen/Preview Content\"";
+				DEVELOPMENT_TEAM = 88LVBYZ958;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lib.SecureEnclaveKeyGen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CCAC1132B8CBCA80007B75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SecureEnclaveKeyGen/Preview Content\"";
+				DEVELOPMENT_TEAM = 88LVBYZ958;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lib.SecureEnclaveKeyGen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CCAC1152B8CBCA80007B75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88LVBYZ958;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lib.SecureEnclaveKeyGenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecureEnclaveKeyGen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SecureEnclaveKeyGen";
+			};
+			name = Debug;
+		};
+		4CCAC1162B8CBCA80007B75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88LVBYZ958;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lib.SecureEnclaveKeyGenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecureEnclaveKeyGen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SecureEnclaveKeyGen";
+			};
+			name = Release;
+		};
+		4CCAC1182B8CBCA80007B75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88LVBYZ958;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lib.SecureEnclaveKeyGenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SecureEnclaveKeyGen;
+			};
+			name = Debug;
+		};
+		4CCAC1192B8CBCA80007B75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88LVBYZ958;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lib.SecureEnclaveKeyGenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SecureEnclaveKeyGen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CCAC0E82B8CBCA60007B75E /* Build configuration list for PBXProject "SecureEnclaveKeyGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCAC10F2B8CBCA80007B75E /* Debug */,
+				4CCAC1102B8CBCA80007B75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCAC1112B8CBCA80007B75E /* Build configuration list for PBXNativeTarget "SecureEnclaveKeyGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCAC1122B8CBCA80007B75E /* Debug */,
+				4CCAC1132B8CBCA80007B75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCAC1142B8CBCA80007B75E /* Build configuration list for PBXNativeTarget "SecureEnclaveKeyGenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCAC1152B8CBCA80007B75E /* Debug */,
+				4CCAC1162B8CBCA80007B75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCAC1172B8CBCA80007B75E /* Build configuration list for PBXNativeTarget "SecureEnclaveKeyGenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCAC1182B8CBCA80007B75E /* Debug */,
+				4CCAC1192B8CBCA80007B75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CCAC0E52B8CBCA60007B75E /* Project object */;
+}
